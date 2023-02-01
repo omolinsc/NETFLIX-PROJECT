@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="./heroine.component.scss">
+
+
+
+<div class="top">
+    <div class="top-title">
+        <h1 class="top-title__text">TOP</h1>
+        <h1 class="top-title__number">5</h1>
+        <!-- <img src="../../../assets/images/LOGO/5.png" alt="top5" class="top-title__image"/> -->
+    </div>
+    <div class="film">
+        <div *ngFor="let film of heroineFilms" class="film-card">
+            <img src={{film.image}} alt={{film.name}} class="film-image"/>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="./films2.component.scss">
+
+<ul class="film">
+    <div class="film-style">
+        <h1>Action</h1>
+    </div>
+    <div class="film-carrousel">
+        <li *ngFor="let film of actionFilms" class="film-card">
+            <img src={{film.image}} alt={{film.name}} class="film-image"/>
+            <p class="film-title">{{film.name}}</p>
+        </li>
+    </div>
+</ul>
