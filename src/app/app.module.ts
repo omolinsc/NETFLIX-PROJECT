@@ -7,6 +7,7 @@ import { FilmsComponent } from './components/films/films.component';
 import { HeroineComponent } from './components/heroine/heroine.component';
 import { NavComponent } from './components/nav/nav.component';
 import { Films2Component } from './components/films2/films2.component';
+import { Films3Component } from './components/films3/films3.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { Films2Component } from './components/films2/films2.component';
     HeroineComponent,
     NavComponent,
     Films2Component,
+    Films3Component,
 
   ],
   imports: [

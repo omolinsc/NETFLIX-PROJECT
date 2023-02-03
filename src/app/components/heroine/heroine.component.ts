@@ -32,4 +32,8 @@ export class HeroineComponent {
     },
   ]
 
+  constructor () {
+    console.log(this.heroineFilms);
+  }
+
 }
